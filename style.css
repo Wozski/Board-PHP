@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7f7f7;
+  margin: 0px;
+}
+
+.warning {
+  color: #a20606;
+  background: #ffc4c6;
+  text-align: center;
+  padding: 10px;
+}
+
+.board {
+  background: white;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 700px;
+  padding: 10px 30px;
+  box-shadow: 1px 1px 3px #e8e8e8;
+  border-radius: 5px;
+}
+
+.board-btn {
+  padding: 10px 30px;
+  border: 1px solid #c2dffb;
+  text-decoration: none;
+  color: black;
+  background: white;
+  font-size: 16px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 3px;
+}
+
+.board-title {
+  color: black;
+}
+
+.board_hr {
+  background: #e8e8e8;
+  height: 1px;
+  margin: 20px auto;
+  max-width: 95%;
+}
+
+.card {
+  margin: 20px 0px;
+  min-height: 70px;
+  display: flex;
+  overflow: overlay;
+}
+
+.card__avatar {
+  width: 50px;
+  height: 50px;
+  background: #e4f0fb;
+  border-radius: 100%;
+  min-width: 50px;
+}
+
+.card__body {
+  margin-left: 10px;
+}
+
+.card__author {
+  color: #5c9edc;
+  font-weight: bold;
+}
+
+.card__time {
+  color: #a0a0a0;
+}
+
+.card__content {
+  margin-top: 8px;
+  word-break: break-all;
+  white-space: pre-line;
+  max-width: 100%;
+}
+
+.submit-btn {
+  padding: 10px;
+  width: 100px;
+  border: 1px solid #c2dffb;
+  text-decoration: none;
+  background: white;
+  font-size: 16px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.login-username {
+  margin-bottom: 10px;
+}
+
+.login-username input {
+  border: 1px solid #c2dffb;
+  padding: 5px;
+}
+
+.board textarea {
+  padding: 10px;
+  border: 1px solid #c2dffb;
+  width: 100%;
+}
+
+.error {
+  color: red;
+}
+
+.nickname_title {
+  margin: 16px 0px;
+  color: blue;
+}
+
+.update_nickname {
+  cursor: pointer;
+  margin: 5px;
+}
+
+.update_user {
+  margin: 5px;
+  font-size: 22px;
+}
+
+.hide {
+  display: none;
+}
+
+.page-info {
+  text-align: center;
+}
+
+.page-info a {
+  padding: 10px;
+  color: #5c9edc;
+  border:1px solid #5c9edc;
+  display: inline-flex;
+  text-decoration: none;
+}
+
+.login-username a{
+  border: 1px solid #c2dffb;
+  text-decoration: none;
+  background: white;
+  font-size: 12px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+}
+.update {
+  cursor: pointer;
+}
+
+.role_submit {
+  margin: 22px 0px;
+}
